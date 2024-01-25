@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&family=Roboto:wght@400;500;900&display=swap");
+
+body {
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.panel {
+  padding: 20px;
+  display: flex;
+  width: 60%;
+  font-family: "Poppins", sans-serif;
+  font-weight: semi-bold;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: navy;
+  border: 1px solid navy;
+  border-radius: 25px;
+}
+
+.question {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.options {
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  gap: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.options div {
+  list-style: none;
+  border: 1px solid navy;
+  border-radius: 25px;
+  padding: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+button {
+  margin-right: 75px;
+  margin-top: 8%;
+  font-size: 20px;
+  padding: 10px 20px;
+  background-color: #4f98c2;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  color: #4f98c2;
+  background-color: white;
+  border: 1 px solid #4f98c2;
+}
+
+#score {
+  font-size: 30px;
+  color: darkslategray;
+}

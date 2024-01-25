@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nabin kumar mahato</title>
+
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+
+        .div1 {
+            display: flex;
+            background-color: rgb(221, 21, 21);
+            width: 500px;
+            height: 200px;
+            border: solid 4px rebeccapurple;
+            border-radius: 10px;
+            margin: 20px;
+
+        }
+
+        .subdiv1 {
+            display: inline-flex;
+            background-color: blue;
+            height: 100px;
+            width: 150px;
+            margin: 20px;
+            grid-row: 1/3;
+
+        }
+
+        .subdiv2 {
+            display: grid;
+            background-color: blueviolet;
+            height: 100px;
+            width: 150px;
+            margin: 20px;
+            grid-row: 1/4;
+        }
+
+        .color{
+            border: 5px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="div1 color">
+        <div class="subdiv1 color"></div>
+        <div class="subdiv2 color"></div>
+    </div>
+
+
+</body>
+
+</html>

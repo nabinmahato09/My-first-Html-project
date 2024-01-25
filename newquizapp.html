@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="quiz-container">
+        <h1>Quiz Application</h1>
+
+        <!-- Question Section -->
+        <div class="question-section">
+            <h2 id="question">Question goes here?</h2>
+        </div>
+
+        <!-- Options Section -->
+        <div class="options-section">
+            <label>
+                <input type="radio" name="answer" value="option1">
+                <span id="option1">Option 1</span>
+            </label>
+
+            <label>
+                <input type="radio" name="answer" value="option2">
+                <span id="option2">Option 2</span>
+            </label>
+
+            <label>
+                <input type="radio" name="answer" value="option3">
+                <span id="option3">Option 3</span>
+            </label>
+
+            <label>
+                <input type="radio" name="answer" value="option4">
+                <span id="option4">Option 4</span>
+            </label><!DOCTYPE html>
+            <html lang="en">
+            
+            <head>
+                <meta charset="UTF-8">
+                <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Simple Quiz</title>
+                <style>
+                    body {
+                        font-family: Arial, sans-serif;
+                        text-align: center;
+                        margin: 20px;
+                    }
+            
+                    .quiz-container {
+                        max-width: 400px;
+                        margin: auto;
+                    }
+            
+                    h1, h2 {
+                        color: #333;
+                    }
+            
+                    button {
+                        background-color: #4CAF50;
+                        color: white;
+                        padding: 10px 20px;
+                        margin-top: 10px;
+                        cursor: pointer;
+                    }
+                </style>
+            </head>
+            
+            <body>
+                <div class="quiz-container">
+                    <h1>Simple Quiz</h1>
+            
+                    <div id="question">Question goes here?</div>
+            
+                    <label>
+                        <input type="radio" name="answer" value="option1">
+                        <span id="option1">Option 1</span>
+                    </label>
+            
+                    <label>
+                        <input type="radio" name="answer" value="option2">
+                        <span id="option2">Option 2</span>
+                    </label>
+            
+                    <label>
+                        <input type="radio" name="answer" value="option3">
+                        <span id="option3">Option 3</span>
+                    </label>
+            
+                    <label>
+                        <input type="radio" name="answer" value="option4">
+                        <span id="option4">Option 4</span>
+                    </label>
+            
+                    <button onclick="checkAnswer()">Submit</button>
+            
+                    <div id="score-section" style="display:none;">
+                        <h2>Your Score:</h2>
+                        <p id="score">0</p>
+                    </div>
+                </div>
+            
+                <script src="quiz.js"></script>
+            </body>
+            
+            </html>
+            
+        </div>
+
+        <!-- Submit Button -->
+        <button onclick="checkAnswer()">Submit</button>
+
+        <!-- Score Section (hidden initially) -->
+        <div class="score-section" id="score-section">
+            <h2>Your Score:</h2>
+            <p id="score">0</p>
+        </div>
+    </div>
+
+    <script src="quiz.js"></script>
+</body>
+
+</html>
